@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
 
 :root {
   --white: #ffffff;
@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -131,6 +131,11 @@ aside img {
   width: 100px;
   height: 100px;
   border-radius: 10px;
+}
+
+.img-container {
+  position: sticky;
+  top: 50px;
 }
 
 footer {
